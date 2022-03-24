@@ -1,2 +1,2 @@
-# Pizza-Restaurant-HTML-Template
-A template made for Restaurants &amp; Pizza.
+# La Caravana HTML Template
+A template made for Restaurants & Pizza with valid HTML5/CSS3.
