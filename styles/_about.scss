@@ -1,0 +1,59 @@
+.about {
+    padding: 0 7.9861111111111%;
+    height: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: black;  
+}
+.about__content {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 474px;
+}
+.about__content-title {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.about__content-divider {
+    width: 474px;
+    height: 9px;
+    background: #F2C94C;
+}
+.about__content-description {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+.about__image {
+    background: url('../images/about-restaurant.png') no-repeat;
+    width: 513px;
+    display: flex;
+    left: 852px;
+    border-radius: 5px;
+}
+.about__content-readmore {
+    width: 129px;
+    height: 54px;
+    background-color: transparent;
+    border: 1px solid #F2C94C;
+    color: #F2C94C;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    &:hover {
+        background: #F2C94C;
+        color: white;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,12 @@
+@import "./navbar";
+@import "./hero";
+@import "./about";
+@import "./find-us";
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    background: rgb(22, 22, 22);
+    font-family: 'Ruda', sans-serif;
+    color: white;
+}

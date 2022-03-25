@@ -1,0 +1,280 @@
+.navbar {
+  background: black;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1.9444444444444%;
+}
+
+.navbar__logo {
+  color: white;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.navbar__menu {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.navbar__menu ul li:hover {
+  border-bottom: 1px solid white;
+}
+
+.navbar__menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  height: auto;
+  left: -1px;
+  top: 75px;
+  background: url("../images/hero.png") no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-gradient {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(0.01%, rgba(39, 39, 39, 0.1)), color-stop(13.02%, rgba(0, 0, 0, 0.13)), to(#000000));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.1) 0.01%, rgba(0, 0, 0, 0.13) 13.02%, #000000 100%);
+  -webkit-filter: drop-shadow(3px 6px 18px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(3px 6px 18px rgba(0, 0, 0, 0.25));
+  height: 953px;
+  left: -1px;
+  top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__title {
+  text-transform: uppercase;
+  font-family: 'Quattrocento', serif;
+  font-weight: 700;
+  font-size: 72px;
+  border-bottom: 4px solid #F2C94C;
+}
+
+.hero__divider {
+  width: 482px;
+  height: 4px;
+  left: 488px;
+  top: 350px;
+  background: #F2C94C;
+  -webkit-box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+          box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.hero__description {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  width: 51.736111111111%;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+}
+
+.hero__image {
+  width: 1439px;
+  height: 990px;
+  background: url("/images/hero-pizza.png") no-repeat;
+  -webkit-filter: drop-shadow(18px 11px 29px rgba(0, 0, 0, 0.61));
+          filter: drop-shadow(18px 11px 29px rgba(0, 0, 0, 0.61));
+}
+
+.about {
+  padding: 0 7.9861111111111%;
+  height: 1024px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  background-color: black;
+}
+
+.about__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 474px;
+}
+
+.about__content-title {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.about__content-divider {
+  width: 474px;
+  height: 9px;
+  background: #F2C94C;
+}
+
+.about__content-description {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+}
+
+.about__image {
+  background: url("../images/about-restaurant.png") no-repeat;
+  width: 513px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 852px;
+  border-radius: 5px;
+}
+
+.about__content-readmore {
+  width: 129px;
+  height: 54px;
+  background-color: transparent;
+  border: 1px solid #F2C94C;
+  color: #F2C94C;
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  text-transform: uppercase;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.about__content-readmore:hover {
+  background: #F2C94C;
+  color: white;
+  cursor: pointer;
+}
+
+.find-us {
+  height: 1024px;
+  background: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.find-us__title {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.find-us__divider {
+  width: 474px;
+  height: 9px;
+  background: #F2C94C;
+}
+
+.find-us__content {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 90px;
+}
+
+.find-us__map {
+  background: url("../images/find-us_map.png") no-repeat;
+  width: 603px;
+  height: 567px;
+  border-radius: 5px;
+}
+
+.find-us__info {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+  margin: auto;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+  background: #161616;
+  font-family: 'Ruda', sans-serif;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

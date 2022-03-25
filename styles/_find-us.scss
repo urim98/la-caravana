@@ -1,0 +1,44 @@
+.find-us {
+    height: 1024px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.find-us__title {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.find-us__divider {
+    width: 474px;
+    height: 9px;
+    background: #F2C94C;
+}
+.find-us__content {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+.find-us__map {
+    background: url('../images/find-us_map.png') no-repeat;
+    width: 603px;
+    height: 567px;
+    border-radius: 5px;
+}
+.find-us__info {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    margin: auto;
+}
