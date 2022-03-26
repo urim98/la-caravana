@@ -2,11 +2,33 @@
 @import "./hero";
 @import "./about";
 @import "./find-us";
+@import "./our-menu";
 
 body {
     width: 75%;
     margin: 0 auto;
-    background: rgb(22, 22, 22);
+    background: rgb(8, 8, 8);
     font-family: 'Ruda', sans-serif;
     color: white;
+}
+
+section {
+    padding: 50px 7.9861111111111%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: black;
+    
+    .copyright {
+        font-family: 'Ruda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 0px;
+        text-transform: uppercase;
+    }
 }

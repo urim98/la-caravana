@@ -18,17 +18,17 @@
     display: flex;
     align-items: center;
 }
-.navbar__menu ul {
+.navbar__menu nav {
     display: flex;
     gap: 40px;
     list-style-type: none;
 }
-.navbar__menu ul li {
+.navbar__menu nav li {
     &:hover {
         border-bottom: 1px solid white;
     }
 }
-.navbar__menu ul li a {
+.navbar__menu nav li a {
     text-decoration: none;
     color: white;
 }

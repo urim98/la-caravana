@@ -1,44 +1,50 @@
-.about {
-    height: auto;
-    display: flex;
-    justify-content: space-between;
+.our-menu {
     background-color: black;
-}
-.about__content {
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: auto;
-    width: 474px;
+    align-items: center;
+    gap: 43px;
 }
-.about__content-title {
+.our-menu__title {
     font-family: 'Quattrocento';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     text-transform: uppercase;
 }
-.about__content-divider {
+.our-menu__divider {
     width: 474px;
     height: 9px;
     background: #F2C94C;
 }
-.about__content-description {
+.our-menu__description {
     font-family: 'Ruda';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     line-height: 40px;
+    text-align: center;
     letter-spacing: 0.09em;
 }
-.about__image {
-    background: url('../images/about-restaurant.png') no-repeat;
-    width: 513px;
+.our-menu__images {
     display: flex;
-    left: 852px;
+    justify-content: space-between;
+    width: 100%;
+}
+.our-menu__left {
+    width: 576px;
+    height: 356px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85.42%, rgba(0, 0, 0, 0.8) 100%), url(../images/menu-pizza.png);
     border-radius: 5px;
 }
-.about__content-readmore {
+.our-menu__right {
+    width: 576px;
+    height: 356px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.48%, rgba(0, 0, 0, 0.8) 100%), url(../images/menu-dough.png);
+    border-radius: 5px;
+}
+.our-menu__button {
     width: 129px;
     height: 54px;
     background-color: transparent;
