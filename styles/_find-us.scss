@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
 }
+.find-us__group {
+    display: flex;
+    flex-direction: column;
+}
 .find-us__title {
     font-family: 'Quattrocento';
     font-style: normal;
@@ -14,7 +18,7 @@
     text-transform: uppercase;
 }
 .find-us__divider {
-    width: 474px;
+    width: auto;
     height: 9px;
     background: #F2C94C;
 }

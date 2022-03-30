@@ -1,8 +1,12 @@
 .about {
-    height: auto;
     display: flex;
     justify-content: space-between;
     background-color: black;
+}
+.about__group {
+    display: flex;
+    flex-direction: column;
+    width: 61%;
 }
 .about__content {
     display: flex;
@@ -19,7 +23,7 @@
     text-transform: uppercase;
 }
 .about__content-divider {
-    width: 474px;
+    width: 100%;
     height: 9px;
     background: #F2C94C;
 }
@@ -35,7 +39,6 @@
     background: url('../images/about-restaurant.png') no-repeat;
     width: 513px;
     display: flex;
-    left: 852px;
     border-radius: 5px;
 }
 .about__content-readmore {

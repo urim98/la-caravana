@@ -6,6 +6,7 @@
 @import "./menu";
 @import "./responsive";
 
+/* Reusable */
 body {
     width: 75%;
     margin: 0 auto;
@@ -13,11 +14,9 @@ body {
     font-family: 'Ruda', sans-serif;
     color: white;
 }
-
 section {
     padding: 50px 7.9861111111111%;
 }
-
 footer {
     display: flex;
     justify-content: center;
@@ -29,8 +28,194 @@ footer {
         font-family: 'Ruda';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
         line-height: 0px;
         text-transform: uppercase;
+    }
+}
+
+/* Home Page:
+    _hero.scss
+    _about.scss
+    _find-us.scss
+    _our-menu.scss
+*/
+/* About Page */
+.about-page-featured-image {
+    background: url(../images/about-featured.jpg) center;
+    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+    height: 265px;
+    display: flex;
+    width: 100%;
+    height: 265px;
+    padding: 0;
+    margin: 0;
+}
+.about-page {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    gap: 20px;
+    text-align: center;
+}
+.about-page__title {
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-page__images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65.77px;
+    .about-page__images-1 {
+        background: url(../images/about-page/Gia+Mia+Wheaton+Store+Front.jpg);
+        width: 250px;
+        height: 250px;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            visibility: hidden;
+        }
+        &:hover {
+            background: linear-gradient(rgba(0, 0, 0, 0.73)), url(../images/about-page/Gia+Mia+Wheaton+Store+Front.jpg);
+            h2 {
+                visibility: visible;
+            }
+        }
+    }
+    .about-page__images-2 {
+        background-image: url(../images/about-page/GMFood_0000s_0016_Gia+Mia+fall+menu_013.jpg);
+        width: 250px;
+        height: 250px;
+        transition: .3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            visibility: hidden;
+        }
+        &:hover {
+            background: linear-gradient(rgba(0, 0, 0, 0.73)), url(../images/about-page/GMFood_0000s_0016_Gia+Mia+fall+menu_013.jpg);
+            h2 {
+                visibility: visible;
+            }
+        }
+    }
+    .about-page__images-3 {
+        background-image: url(../images/about-page/GMFood_0000s_0016_Gia+Mia+fall+menu_013.jpg);
+        width: 250px;
+        height: 250px;
+        transition: .3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            visibility: hidden;
+        }
+        &:hover {
+            background: linear-gradient(rgba(0, 0, 0, 0.73)), url(../images/about-page/GMFood_0000s_0016_Gia+Mia+fall+menu_013.jpg);
+            h2 {
+                visibility: visible;
+            }
+        }
+    }
+    .about-page__images-4 {
+        background-image: url(../images/about-page/pizzaFire.jpg);
+        width: 250px;
+        height: 250px;
+        transition: .3s ease-in-out;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            visibility: hidden;
+        }
+        &:hover {
+            background: linear-gradient(rgba(0, 0, 0, 0.73)), url(../images/about-page/pizzaFire.jpg);
+            h2 {
+                visibility: visible;
+            }
+        }
+    }
+}
+
+/* Menu Page */
+
+
+/* Contact Page */
+.contact-survey {
+    background: url(../images/Contact-Us.jpg);
+    box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.3);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    h1 {
+        width: max-content;
+        font-size: 35px;
+    }
+    p {
+        width: 50%;
+    }
+    button {
+        height: 45px;
+        font-size: 18px;
+        text-transform: uppercase;
+        border: transparent;
+        background-color: #F2C94C;
+        font-weight: 700;
+        width: 300px;
+        transition: .3s ease-in-out;
+        &:hover {
+            background-color: transparent;
+            color: white;
+            border: 1px solid #F2C94C;
+            cursor: pointer;
+        }
+    }
+}
+.contact-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    gap: 50px;
+    padding: auto 5%;
+}
+.contact-page__content {
+    width: 50%;
+    .contact-page__content-image {
+        background: url(../images/contact.jpg) no-repeat;
+        width: 100%;
+        height: 400px;
+    }
+}
+.contact-page__form {
+    height: 100%;
+    width: 50%;
+}
+.contact-page__form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    input {
+        height: 40px;
+        font-size: 16px;
+        padding: 5px;
+    }
+    button {
+        background-color: dodgerblue;
+        font-size: 18px;
+        height: 40px;
+        border: none;
+        color: white;
+        padding: 5px;
+        text-transform: uppercase;
+        &:hover {
+            background-color: transparent;
+            border: 2px solid dodgerblue;
+        }
     }
 }

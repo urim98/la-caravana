@@ -6,6 +6,10 @@
     align-items: center;
     gap: 43px;
 }
+.our-menu__group {
+    display: flex;
+    flex-direction: column;
+}
 .our-menu__title {
     font-family: 'Quattrocento';
     font-style: normal;
@@ -14,7 +18,7 @@
     text-transform: uppercase;
 }
 .our-menu__divider {
-    width: 474px;
+    width: auto;
     height: 9px;
     background: #F2C94C;
 }

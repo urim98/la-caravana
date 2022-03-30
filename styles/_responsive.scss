@@ -97,6 +97,9 @@
         align-items: center;
         text-align: center;
     }
+    .about__group {
+        display: flex;
+    }
     /* Find Us */
     .find-us__content {
         flex-direction: column;
